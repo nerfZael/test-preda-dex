@@ -1,0 +1,16 @@
+node_modules
+bin
+build
+dist
+
+#Environment
+.env
+.env.docker
+.env.local
+
+# OpenZeppelin
+.openzeppelin/dev-*.json
+.openzeppelin/unknown-*.json
+.openzeppelin/.session
+coverage/
+coverage.json
